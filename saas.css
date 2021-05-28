@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    font-family: "Segoe UI";
+    font-size: 13px;
+}
+
+body {
+	background-image: url('finalLogin.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	max-width:100%;
+	max-height:100%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  padding: 2%;
+}
+
+
+p {
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto; 
+	width:250px;
+}
+
+input[type="email"] {
+  background-color : #def9ff; 
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+input[type="password"] {
+  background-color : #ffe6e6; 
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.form-control {
+    border: 0px;
+}
+
+.fp {
+	text-align: right;
+	color: blue;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.btn-primary {
+	width: 45%;
+	font-weight: bold;
+	margin: 0 auto; 
+	margin-top: 30px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: grey;
+  font-size: 11px;
+}
+
+.separator::before,.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid ;
+  border-bottom-color: grey ;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 1em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 1em;
+}
+
+.icons {
+	margin: 0 auto;
+	margin-right: 10px;	
+	margin-left: 10px;
+    padding: 0;
+    display: block;
+    display: flex;
+    flex: column;
+}
+
+.zoom {
+  transition: transform .2s;
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5)
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+.last {
+	font-size: 13px;
+	text-align: center;
+}
+
+.lastlink {
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+}
